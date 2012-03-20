@@ -1,0 +1,363 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+/* -------------------
+
+   7. bigroundforms STYLES
+
+-------------------- */
+
+
+
+#bigroundforms {
+
+	overflow: hidden;
+
+	font-size:18px;
+
+	line-height:18px;
+
+	float:left;
+
+	}
+
+	
+
+#bigroundforms #alert {
+
+	width: 630px;
+
+	float: left;
+
+	margin-bottom: 20px
+
+	}
+
+	
+
+	#bigroundforms #alert .error_message {
+
+	background: #FBE3E4 url(../../../form%20-%20Copy/images/ico-alert.png) 10px center no-repeat;
+
+	color: #8a1f11;
+
+	font-size: 0.8em;
+
+	padding: 8px 10px 8px 40px;
+
+	border: 1px solid #FBC2C4;
+
+	}
+
+	
+
+#bigroundforms #success_message {
+
+	text-shadow: 0px 1px 0px #f9ffe8;
+
+	width: 628px;
+
+	height: 160px;
+
+	float: left;
+
+	background: #dbf6ce url(../../../form%20-%20Copy/images/sent.jpg) -40px center no-repeat;
+
+	border: 1px solid #91db6c;
+
+	}	
+
+	
+
+	#bigroundforms #success_message p {
+
+		margin-left: 200px;
+
+		margin-top: 40px;
+
+		font-size: 0.9em;
+
+		}
+
+	
+
+	#bigroundforms #success_message p span {
+
+		font-weight: bold;
+
+		font-size: 1.4em;
+
+		color: #3e9912;
+
+		}
+
+
+
+#bigroundforms .aside {
+
+	float: left;
+
+	width: 250px;
+
+	margin-left: 60px;
+
+	}
+
+
+
+	#bigroundforms .aside p.sub_heading {
+
+		font-size: 0.75em;
+
+		line-height: 1.6;
+
+		margin-bottom: 20px;
+
+		}
+
+	
+
+	#bigroundforms .aside ul li a {
+
+		font: 0.8em/2em Helvetica, sans-serif;
+
+		color: #ec8600;
+
+		border-bottom: 1px dotted;
+
+		text-decoration: none;
+
+		}	
+
+	
+
+	#bigroundforms .aside ul li a:hover {
+
+		color: #7c3d00
+
+		}
+
+
+
+#bigroundforms h1 {
+
+	text-indent: -9999px;
+
+	background: url(../../../form%20-%20Copy/images/h_bigroundforms.gif) left top no-repeat;
+
+	width: 106px;
+
+	height: 20px;
+
+	margin-bottom: 40px;
+
+	}
+
+	
+
+#bigroundforms h2 {
+
+	font-size:30px;
+
+	line-height: 1;
+
+	}
+
+
+
+#bigroundforms h3 {
+
+	color:#888888;
+
+	line-height: 2;
+
+	}
+
+	
+
+form#bigroundforms_form {
+
+	position: relative;
+
+	float: left;
+
+	width: 630px;
+
+	min-height: 250px;
+
+	}
+
+
+
+form#bigroundforms_form label { 
+
+	display: none;
+
+	}
+
+
+
+form#bigroundforms_form input,
+
+form#bigroundforms_form textarea {
+
+	background-color: white;
+
+	border: 0;
+
+	font: 1.3em/1em Georgia, serif;
+
+	-moz-border-radius: 5px;
+
+	-webkit-border-radius: 5px;
+
+	border-radius: 5px;	
+
+	color: #aaa;
+
+	border: 1px solid #999999;
+
+	}
+
+	
+
+form#bigroundforms_form input {
+
+	width: 300px;
+
+	padding: 16px 10px 16px 16px;
+
+	/*margin-bottom: 15px;*/
+
+	}
+
+
+
+form#bigroundforms_form input#mce-FNAME {
+
+	/*background-image: url(images/contact_spr.png);*/
+
+	background-image: url(http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/contact_spr.png);
+
+	background-position: 20px -165px;
+
+	background-repeat: no-repeat;
+
+	}
+
+
+
+form#bigroundforms_form input#mce-EMAIL {
+
+	background-image: url(http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/contact_spr.png);
+
+	background-position: 20px -230px;
+
+	background-repeat: no-repeat;
+
+	}
+
+
+
+form#bigroundforms_form input#mce-MMERGE2 {
+
+	background-image: url(http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/contact_spr.png);
+
+	background-position: 20px -294px;
+
+	background-repeat: no-repeat;
+
+	}
+
+
+
+form#bigroundforms_form textarea {
+
+	line-height: 1.2em;
+
+	width: 580px;
+
+	padding: 16px 20px;
+
+	margin-bottom: 20px;
+
+	}
+
+
+
+form#bigroundforms_form input:focus,
+
+form#bigroundforms_form textarea:focus {
+
+	color: #374759;
+
+	background-color: #fafad6;
+
+	border: 1px solid #ccc;
+
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+
+	}
+
+
+
+form#bigroundforms_form button {
+
+	text-indent: -9999px;
+
+	background: url(http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/contact_spr.png) left top no-repeat;
+
+	width: 200px;
+
+	height: 54px;
+
+	border: 0;
+
+	cursor: pointer;
+
+	display: block;
+
+	margin: 5px;
+
+	}
+
+
+
+form#bigroundforms_form button:hover {
+
+	background-position: left -54px;
+
+	}
+
+
+
+form#bigroundforms_form button:active {
+
+	background-position: left -108px;
+
+	}
+
+	
+
+form#bigroundforms_form legend {
+
+	display: none;
+
+	}
+
+	
+
+form#bigroundforms_form img.loader {
+
+	position: absolute;
+
+	left: 44%;
+
+	top: 30%;
+
+	}

@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* colors */
+#big_gray, .live, .live a {background: #f6f4f4 url(images/newspaper.png) repeat;}
+body {background: #FDFDFA url(images/newspaper-dark.png) repeat;
+	text-align: center; /* !!! */; 
+	color: #080000; 
+	font-family: Georgia,"Times New Roman",serif; 
+}
+.lightcolor {color: #888;}
+.live, .live a{color: #080000;}
+#nav {color: #080000;}
+
+form img { margin: 0; }
+
+a, h1, h2, h3 {color: #a12b2b;}
+h1, h2, h3 {
+	color:#444; font-family: 'Georgia', serif;
+}
+h1 {font-family: 'Poiret One', cursive; text-shadow: #CCC -1px -1px 0;}
+/* form1.php */
+#floater {
+	height:35%; 
+	margin-bottom: 100px;
+	}
+/* ul labels */
+ul label {
+	/* border: 1px solid gray; */
+	border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 14px;
+}
+.choices {
+	float:left; margin: 0 0 10px; 
+	font-family: "Georgia", Times New Roman, Serif;
+    font-size: 20px;
+    line-height: 200%;
+    margin: 0 0 10px;
+	clear:both;
+}
+
+#next {
+	height: 32px; 
+	margin-right: 10px; 
+	margin-bottom:0; 
+	text-align: center; 
+	max-width: 562px; 
+	float:left;
+}
+/* naviagation */
+#nav {/* margin-bottom:10px; */ text-align:center; font-size: 20px;}
+#nav a {color: #FFF; text-decoration: none;}
+#nav ul {padding-left:0;  margin-top: 0;}
+#nav li {list-style:none;display:inline-block;margin:2px 10px;}
+#nav li a:hover {text-decoration: underline;}
+.live, .live a{
+	padding: 10px 20px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+p {margin-top:0;}
+a:hover {color: #008efe;}
+/* Tabs reading css originally in custom.css */
+div.panes p, div.panes li {color: #333;}
+div.panes li { margin: 20px; }
+div.panes h1, div.panes h2, div.panes h3 {
+	font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 100%;
+    padding: 10px 0 5px;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: capitalize;
+	margin-left: 15px;
+	font-family: arial, Arial, Helvetica, sans-serif;
+}
+div.panes h2 {
+	color: #1374C3;
+    font-size: 30px;
+}
+.panes .alignright {
+    margin: 10px 20px 15px 15px;
+    max-width: 432px;
+}
+.panes p {
+    margin: 10px 15px 15px 20px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+/* End of Tabs */
+#form {
+/*margin: 0px auto;*/
+margin-top:1em;
+padding: 15px 20px;
+position: relative;
+float: none;
+clear: both;
+display: inline-block;
+}
+#form form {text-align:left; /* !!! */
+	/* only for nav bookmark display:inline-block; */}
+
+#bigroundforms {
+font-size: 18px;
+line-height: 2;
+overflow: hidden;
+text-align: left;
+}
+#bigroundforms h1 {
+background: url("../../images/h_bigroundforms.gif") no-repeat scroll left top transparent;
+height: 20px;
+margin-bottom: 40px;
+text-indent: -9999px;
+width: 106px;
+}
+#bigroundforms h2 {
+font-size: 30px;
+line-height: 1;
+}
+#bigroundforms h3 {
+color: #888888;
+line-height: 2;
+}
+#bigroundforms_form {
+/* float: left; */
+min-height: 100px;
+position: relative;
+/* min-width: 530px; */
+/* display: inline-block; */
+display: block;
+text-align: left;
+}
+#bigroundforms_form input[type=text], #bigroundforms_form textarea {
+background-color: #EEE;
+border: 1px solid #999999;
+border-radius: 5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+color: #AAAAAA;
+font: 18px Georgia,serif;
+margin: 0px 10px 10px 0;
+}
+#bigroundforms_form .non-form input[type=text] , .non-form input[type=text] {
+	border: 1px solid #999999;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #AAAAAA;
+	font: 18px Georgia,serif;
+	margin: 5px 10px 10px 0;
+	padding: 12px; 12px 12px 12px;
+	line-height:30px; 
+	width:450px;
+	height: 60px;
+}
+#bigroundforms_form input {
+padding: 12px; 12px 12px 12px;
+line-height:30px; 
+}
+#bigroundforms_form input[type=text] {
+height:33px; /* wierd IE */
+width: 200px;
+}
+#bigroundforms_form ul { list-style: none outside; }
+/* #bigroundforms_form input.ss-q-checkbox, #bigroundforms_form input.ss-choice-label { height:auto; width:auto; } */
+label.error {
+display: list-item;
+background-color: red;
+color: white;
+font-size: 1em;
+list-style: none;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 10px;}
+#bigroundforms_form input#mce-FNAME {
+background-image: url("http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/green.png");
+background-position: 20px -165px;
+background-repeat: no-repeat;
+}
+#bigroundforms_form input#mce-EMAIL {
+background-image: url("http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/green.png");
+background-position: 20px -230px;
+background-repeat: no-repeat;
+}
+#bigroundforms_form input#mce-MMERGE2 {
+background-image: url("http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/green.png");
+background-position: 20px -294px;
+background-repeat: no-repeat;
+}
+#bigroundforms_form textarea {
+/*line-height: 1.2em; */
+margin-bottom: 20px;
+padding: 16px 20px;
+width: 580px;
+}
+#bigroundforms_form input:focus, #bigroundforms_form textarea:focus {
+background-color: #FAFAD6;
+border: 1px solid #CCCCCC;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+color: #374759;
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+#bigroundforms_form button {
+border: 0 none;
+cursor: pointer;
+display: inline;
+margin: opx;
+/* text-indent: -9999px; */
+position:relative;
+}
+#nav button {
+border: 0 none;
+cursor: pointer;
+margin: opx;
+/* text-indent: -9999px; */
+position:relative;
+}
+#bigroundforms_form button.next:hover, #bigroundforms_form button.go:hover, #bigroundforms_form button.done:hover {
+background-position: left -60px;
+}
+#bigroundforms_form button.go:active, #bigroundforms_form button.next:active, #bigroundforms_form button.done:active {
+background-position: left -120px;
+}
+#nav button.bookmark:active, button.bookmark:hover, {
+background-position: left -57px;
+}
+#bigroundforms_form button.go {
+background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/button-go.png") no-repeat scroll left top transparent;
+height: 60px;
+width: 82px;
+}
+#nav button.bookmark {
+background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/msg/inc/css/images/bookmark.png") no-repeat scroll left top transparent;
+height: 57px;
+width: 67px;
+border:none;
+cursor: pointer;
+}
+#bigroundforms_form button.next {
+background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/msg/inc/css/images/next.png") no-repeat scroll left top transparent;
+height: 60px;
+width: 140px;
+}
+#bigroundforms_form button.done {
+background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/msg/inc/css/images/done.png") no-repeat scroll left top transparent;
+height: 60px;
+width: 140px;
+}
+/* I don't think I'm using any of these */
+#bigroundforms_form label {
+/* display: none; */
+}
+#bigroundforms_form legend {
+/* display: none; */
+}
+#bigroundforms_form img.loader {
+left: 44%;
+position: absolute;
+top: 30%;
+}
+#bigroundforms #alert {
+float: left;
+margin-bottom: 20px;
+width: 630px;
+}
+#bigroundforms #alert .error_message {
+background: url("../../images/ico-alert.png") no-repeat scroll 10px center #FBE3E4;
+border: 1px solid #FBC2C4;
+color: #FF0;
+font-size: 0.8em;
+padding: 8px 10px 8px 40px;
+}
+#bigroundforms #success_message {
+background: url("../../images/sent.jpg") no-repeat scroll -40px center #DBF6CE;
+border: 1px solid #91DB6C;
+float: left;
+height: 160px;
+text-shadow: 0 1px 0 #F9FFE8;
+width: 628px;
+}
+#bigroundforms #success_message p {
+font-size: 0.9em;
+margin-left: 200px;
+margin-top: 40px;
+}
+#bigroundforms #success_message p span {
+color: #3E9912;
+font-size: 1.4em;
+font-weight: bold;
+}
+#bigroundforms .aside {
+float: left;
+margin-left: 60px;
+width: 250px;
+}
+#bigroundforms .aside p.sub_heading {
+font-size: 0.75em;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+#bigroundforms .aside ul li a {
+border-bottom: 1px dotted;
+color: #EC8600;
+font: 0.8em/2em Helvetica,sans-serif;
+text-decoration: none;
+}
+#bigroundforms .aside ul li a:hover {
+color: #7C3D00;
+}
+#big_gray.footer {background: #CCC url(none);}
+blockquote {
+background-color: #EEE; 
+/* background-color: none;*/
+border: 1px solid #AAAAAA;
+border-radius: 3px 3px 3px 3px;
+color: #666666;
+font-family: Georgia,Times,serif;
+font-size: 1em;
+font-size-adjust: none;
+font-stretch: normal;
+font-style: normal;
+font-variant: normal;
+font-weight: bold;
+line-height: normal;
+margin: 20px;
+padding: 20px;
+}
+blockquote p {
+	font-weight: normal;
+	font-size: 14px;
+}
+#big_gray {
+/* border: 1px solid gray; */
+border-radius: 5px 5px 5px 5px;
+display: inline-block;
+margin-bottom: 10px;
+/* margin-right: 10px; */
+padding: 14px;
+border: 1px solid #AAA;
+}
+img.alignleft {
+display: inline;
+margin: 0 7px 2px 0;
+padding: 4px;
+}
+/* img {
+background: none repeat scroll 0 0 #DDDDDD;
+border: 1px solid #BBBBBB;
+padding: 7px;
+} */
+
+/* video embed */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+	/*min-width: 770px;*/
+	
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#illustration {
+	padding: 5px;
+	/*border-radius: 5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px; */
+	display:inline-block;
+	margin: 5px;
+	border: 1px solid #AAA;
+	background: #CCC;
+}
+#illustration.right, img.right {float:right; margin: 0 0 5px 24px;}
+#illustration.left, img.left {float:left; margin: 0 24px 5px 0;}
+img { max-width: 100%; }
