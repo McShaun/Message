@@ -5,7 +5,7 @@
 #big_gray, .live, .live a {background: #f6f4f4 url(images/newspaper.png) repeat;}
 body {background: #FDFDFA url(images/newspaper-dark.png) repeat;
 	text-align: center; /* !!! */; 
-	color: #080000; 
+	color: #444; 
 	font-family: Georgia,"Times New Roman",serif; 
 }
 .lightcolor {color: #888;}

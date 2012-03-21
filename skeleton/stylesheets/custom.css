@@ -1,0 +1,72 @@
+/*
+* Go Providence V1.1
+* these are Shaun's additions to the theme
+* shaundmcmillan@gmail.com
+*/
+
+
+/* Styles overwriting Skeleton's base 
+==================================================
+    
+	 */
+
+.container {
+	padding: 10px; 
+	background: #f6f4f4 url(../../inc/css/images/newspaper.png) repeat;
+	margin-top: 1em;
+	
+	border: 1px solid #AAA;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	
+	/* firefox's border radius properties */
+	-moz-border-radius:5px;
+	
+	/* webkit's border radius properties */
+	-webkit-border-radius:5px;
+	}
+body {background: #BBB url(../../inc/css/images/newspaper-dark.png) repeat;}	
+
+
+
+
+/* Newly created styles
+===================================================== */
+
+#illustration {
+	padding: 5px;
+	/*border-radius: 5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px; */
+	display:inline-block;
+	margin: 5px;
+	border: 1px solid #AAA;
+	background: #CCC;
+}
+#illustration.right, img.right {float:right; margin: 0 0 5px 24px;}
+#illustration.left, img.left {float:left; margin: 0 24px 5px 0;}
+img { max-width: 100%; }
+
+/* video embed ======================================= */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+	/*min-width: 770px;*/
+	
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
