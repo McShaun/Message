@@ -9,28 +9,35 @@
 ==================================================
     
 	 */
+/* #Non-mobile big screen
+================================================== */
 
-.container {
-	padding: 10px; 
-	background: #f6f4f4 url(../../inc/css/images/newspaper.png) repeat;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	
-	border: 1px solid #AAA;
-	
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
-	
-	/* firefox's border radius properties */
-	-moz-border-radius:5px;
-	
-	/* webkit's border radius properties */
-	-webkit-border-radius:5px;
+    /* Note: Design for a big screens */
+
+    @media only screen and (min-width: 959px) {
+		#big_gray {
+			padding: 10px; 
+			background: #f6f4f4 url(../../inc/css/images/newspaper.png) repeat;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			
+			border: 1px solid #AAA;
+			
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-o-border-radius: 5px;
+			
+			/* firefox's border radius properties */
+			-moz-border-radius:5px;
+			
+			/* webkit's border radius properties */
+			-webkit-border-radius:5px;
+			}
+		.container {background:none;}
+		body {background: #BBB url(../../inc/css/images/newspaper-dark.png) repeat;}	
+
 	}
-body {background: #BBB url(../../inc/css/images/newspaper-dark.png) repeat;}	
-
 
 
 
