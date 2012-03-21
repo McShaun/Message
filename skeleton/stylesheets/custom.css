@@ -9,6 +9,8 @@
 ==================================================
     
 	 */
+	 
+	 body {background: #f6f4f4 url(../../inc/css/images/newspaper.png) repeat;}
 /* #Non-mobile big screen
 ================================================== */
 
@@ -44,7 +46,7 @@
 /* Newly created styles
 ===================================================== */
 
-#illustration {
+#illustration, .illustration {
 	padding: 5px;
 	/*border-radius: 5px 5px 5px 5px;
 	-moz-border-radius:5px 5px 5px 5px;

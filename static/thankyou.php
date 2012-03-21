@@ -11,14 +11,14 @@ We genuinely appreciate your participation on the site. You can email us, at <a 
 </div>
 <div id="big_gray">
 <h2>Share!</h2>
-<p>Tell others about us by spreading the good word. We especially appreciate when you can post our link, <a href="http://www.BibleStudyInteractive.com">http://www.BibleStudyInteractive.com</a> to your favorite social networks.
+<p>Tell others about us by spreading the good word. We especially appreciate when you can post our link, <a href="http://www.BibleStudyInteractive.com">http://www.BibleStudyInteractive.com/msg</a> to your favorite social networks.
 <br style="clear:all;">
-<input class="non-form" type="text" value="http://www.BibleStudyInteractive.com" style="width:320px; margin-top:10px;
+<input class="non-form" type="text" value="http://www.BibleStudyInteractive.com/msg" style="width:320px; margin-top:10px;
 	height: 60px;">
 </p>
 </div>
 <div id="big_gray">
-<h2>Treat your lecturer to lunch!</h2>
+<h2>Contribute!</h2>
 <p>
 What could be a nicer gesture of appreciation? We are currently paying for this project out of our own pockets, so all financial contributions are welcome. Any financial gifts can be offerred through paypal.
 </p>
