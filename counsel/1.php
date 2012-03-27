@@ -2,6 +2,7 @@
 $page = '1'; 
 ?>
 <?php include("../inc/header.php"); ?>
+<!-- I'm about to branch out and implement the skeleton framework, but first I need to make sure I can pull my files if this experiment goes awry -->
 <body>
 <!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
 <!-- <div id="form" style="width: 768px;" > -->
