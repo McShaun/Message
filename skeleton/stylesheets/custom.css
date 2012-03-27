@@ -10,7 +10,10 @@
     
 	 */
 	 
-	 body {background: #f6f4f4 url(../../inc/css/images/newspaper.png) repeat;}
+	 body {background: #f6f4f4 url(../../inc/css/images/ipadpaper.png) repeat;}
+	 a {text-decoration:none;}
+	 a:hover {color:#900;}
+	 
 /* #Non-mobile big screen
 ================================================== */
 
@@ -41,25 +44,34 @@
 
 	}
 
+/* #Tablet (Portrait)
+================================================== */
 
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 766px; } /* adjusted from 768 to 766 by SM - was causing side scrolling */
+	}
 
 /* Newly created styles
 ===================================================== */
 
 #illustration, .illustration {
 	padding: 5px;
-	/*border-radius: 5px 5px 5px 5px;
-	-moz-border-radius:5px 5px 5px 5px;
-	-khtml-border-radius: 5px;
-	-webkit-border-radius: 5px; */
 	display:inline-block;
-	margin: 5px;
+	margin: 0;
 	border: 1px solid #AAA;
 	background: #CCC;
 }
+a:hover img, a:focus img {
+	background: #DEDEDE;
+	border: 1px solid #BBB;
+}
+
 #illustration.right, img.right {float:right; margin: 0 0 5px 24px;}
 #illustration.left, img.left {float:left; margin: 0 24px 5px 0;}
-img { max-width: 100%; }
+
+ img { max-width: 100%; } 
 
 /* video embed ======================================= */
 .embed-container {
