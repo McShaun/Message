@@ -50,7 +50,7 @@
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        .container                                  { width: 766px; } /* adjusted from 768 to 766 by SM - was causing side scrolling */
+        /* .container { width: 766px; }  adjusted from 768 to 766 by SM - was causing side scrolling */
 	}
 
 /* Newly created styles
