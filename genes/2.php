@@ -3,8 +3,8 @@ $page = '2';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<div id="form" >
+<div class="container">
+<div id="form" class="one">
 <?php include("../genes/nav.php"); ?>
 <form action="3.php" method="post" id="commentForm">
 <?php
@@ -18,10 +18,10 @@ $page = '2';
 <div id="bigroundforms_form">
 	<div id="content">		
     <div class="clear"></div>                     
-        <div id="big_gray">
+        <div id="big_gray" class="collumn">
                 <h1>"You Take Heaven by Force through Truth and Love, and Faith and Action."<strong style="font-weight:100; font-size:18px;">Continued...</strong></h1>
                 </div><!-- big gray -->
-                <div id="big_gray">
+                <div id="big_gray" class="collumn">
                 <h3>Do Not Entertain the Thoughts of Evil or Unrighteousness At All 
 And Do not Sin.</h3>
         
@@ -37,25 +37,32 @@ People are all inflicted with injuries, pain, and harm because of other people. 
                 <p>
                 Let's watch the next video to see this example.
                 </p>
-                </div><!-- big gray -->
-                <div id="big_gray">
-            <div class="embed-container">
-            <iframe src="http://player.vimeo.com/video/38780052?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-            </div>
-	</div><!-- big gray -->
-    <!-- <div class="clear"></div>                     
-        <div id="big_gray" class="footer">
-        </div name="big_gray"> -->
-    </div><!-- content -->
-<div id="big_gray">
+            </div><!-- big gray -->
+            <div id="big_gray" class="collumn" style="display: block;">
+                <div class="embed-container">
+                	<iframe src="http://player.vimeo.com/video/38780052?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                </div>
+			</div>
+    
+<div id="big_gray" class="collumn">
     <div id="next">
         <h3>Go to the next page to keep reading!</h3>
     </div>
         <button id="form-submit" class="next" name="Lesson" value="Finished" type="submit" style="float:right;"></button>
 <div>
-
+</div><!-- content -->
 </div><!-- end of bigroundforms_form -->
 </form>
+</div name="one">
 </div><!-- end of form div -->
 <?php include("../inc/google-analytics.php") ; ?>
+
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="skeleton/javascripts/tabs.js"></script>
+
+    <!-- End Document
+    ================================================== -->
 </body></html>
