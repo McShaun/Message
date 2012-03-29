@@ -74,10 +74,10 @@
 /* #Tablet (Portrait)
 ================================================== */
 
-    /* Note: Design for a width of 768px */ /* SM modified numbers by couple pixels 767 > 765 on all media queries */
+    /* Note: Design for a width of 768px */ /* SM modified numbers by couple pixels 767 > 765, 489 > 478  on all media queries */
 
     @media only screen and (min-width: 766px) and (max-width: 959px) {
-        .container                                  { width: 768px; }
+        .container                                  { width: 730px; } /* SM 768px > 730px to fit in margins and padding and border */
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
         .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
@@ -179,7 +179,7 @@
 
     /* Note: Design for a width of 480px */
 
-    @media only screen and (min-width: 480px) and (max-width: 765px) {
+    @media only screen and (min-width: 478px) and (max-width: 765px) {
         .container { width: 420px; }
         .container .columns,
         .container .column { margin: 0; }

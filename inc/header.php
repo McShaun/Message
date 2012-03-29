@@ -18,7 +18,7 @@
 
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="../skeleton/stylesheets/base.css">
+	<!-- <link rel="stylesheet" href="../skeleton/stylesheets/base.css"> -->
 	<link rel="stylesheet" href="../skeleton/stylesheets/skeleton.css">
 	<link rel="stylesheet" href="../skeleton/stylesheets/layout.css">
 
