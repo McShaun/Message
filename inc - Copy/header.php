@@ -18,9 +18,9 @@
 
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="../skeleton/stylesheets/base.css">
-	<link rel="stylesheet" href="../skeleton/stylesheets/skeleton.css">
-	<link rel="stylesheet" href="../skeleton/stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -47,16 +47,14 @@
 <link rel="stylesheet" type="text/css" href="../inc/css/forms.css"
   media="screen" />
   
-<!-- in case of small screen 
+<!-- in case of small screen -->
 <link rel="stylesheet" type="text/css"
 	media="screen and (max-device-width: 920px)"
 	href="../inc/css/mobile.css" />
-    -->
-<!-- wide screens 
+<!-- wide screens -->
 <link rel="stylesheet" type="text/css"
 	media="screen and (min-device-width: 920px)"
 	href="../inc/css/non-mobile.css" />
-    -->
     
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js" type="text/javascript"></script>

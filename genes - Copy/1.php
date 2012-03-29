@@ -3,14 +3,9 @@ $page = '1';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-
-	<!-- Primary Page Layout
-	================================================== -->
-
-	<!-- Delete everything in this .container and get started on your own site! -->
-
-	<div class="container">
-<div id="form" class="one">
+<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
+<!-- <div id="form" style="width: 768px;" > -->
+<div id="form">
 
 <?php include("../genes/../genes/nav.php"); ?>
 <form action="2.php" method="post" id="commentForm">
@@ -25,7 +20,7 @@ $page = '1';
     <div id="bigroundforms_form">
         <div id="content">		
         <div class="clear"></div>                     
-            <div id="big_gray" class="collumn">
+            <div id="big_gray">
             <h1>"You Take Heaven by Force through Truth and Love, and Faith and Action."
                 </h1>
                     <p>Hallelujah!
@@ -52,7 +47,7 @@ First, if a person commits a 'sin,' He makes them pay the price for the sin in t
                     
             </div><!-- big gray -->
             
-    		<div id="big_gray" style="display: block;" class="collumn">
+    		<div id="big_gray" style="display: block;">
                 <div class="embed-container">
                 <iframe src="http://player.vimeo.com/video/38697743?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                 </div>
@@ -65,26 +60,16 @@ First, if a person commits a 'sin,' He makes them pay the price for the sin in t
             </blockquote>
         </div name="big_gray"> 
            
-        
-    <div id="big_gray" style="display:inline-block;" class="collumn">
+        </div><!-- content -->
+    <div id="big_gray" style="display:inline-block;" >
         <div id="next">
             <h3>Go to the next page to keep reading!</h3>
         </div>
             <button id="form-submit" class="next" name="Lesson" value="Finished" type="submit" style="float:right;"></button>
     <div>
-    </div><!-- content -->
     
     </div><!-- end of bigroundforms_form -->
 </form>
 </div><!-- end of form div -->
-	</div><!-- container -->
 <?php include("../inc/google-analytics.php") ; ?>
-
-	<!-- JS
-	================================================== -->
-	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-	<script src="skeleton/javascripts/tabs.js"></script>
-
-    <!-- End Document
-    ================================================== -->
 </body></html>
