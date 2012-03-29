@@ -25,7 +25,7 @@ $page = '1';
     <div id="bigroundforms_form">
         <div id="content">		
         <div class="clear"></div>                     
-            <div id="big_gray" class="collumn">
+            <div id="big_gray">
             <h1>"You Take Heaven by Force through Truth and Love, and Faith and Action."
                 </h1>
                     <p>Hallelujah!
@@ -52,7 +52,7 @@ First, if a person commits a 'sin,' He makes them pay the price for the sin in t
                     
             </div><!-- big gray -->
             
-    		<div id="big_gray" style="display: block;" class="collumn">
+    		<div id="big_gray" style="display: block;">
                 <div class="embed-container">
                 <iframe src="http://player.vimeo.com/video/38697743?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                 </div>
@@ -66,7 +66,7 @@ First, if a person commits a 'sin,' He makes them pay the price for the sin in t
         </div name="big_gray"> 
            
         
-    <div id="big_gray" style="display:inline-block;" class="collumn">
+    <div id="big_gray" style="display:inline-block;">
         <div id="next">
             <h3>Go to the next page to keep reading!</h3>
         </div>

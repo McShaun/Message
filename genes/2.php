@@ -18,10 +18,10 @@ $page = '2';
 <div id="bigroundforms_form">
 	<div id="content">		
     <div class="clear"></div>                     
-        <div id="big_gray" class="collumn">
+        <div id="big_gray">
                 <h1>"You Take Heaven by Force through Truth and Love, and Faith and Action."<strong style="font-weight:100; font-size:18px;">Continued...</strong></h1>
                 </div><!-- big gray -->
-                <div id="big_gray" class="collumn">
+                <div id="big_gray">
                 <h3>Do Not Entertain the Thoughts of Evil or Unrighteousness At All 
 And Do not Sin.</h3>
         
@@ -38,13 +38,13 @@ People are all inflicted with injuries, pain, and harm because of other people. 
                 Let's watch the next video to see this example.
                 </p>
             </div><!-- big gray -->
-            <div id="big_gray" class="collumn" style="display: block;">
+            <div id="big_gray" style="display: block;">
                 <div class="embed-container">
                 	<iframe src="http://player.vimeo.com/video/38780052?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                 </div>
 			</div>
     
-<div id="big_gray" class="collumn">
+<div id="big_gray">
     <div id="next">
         <h3>Go to the next page to keep reading!</h3>
     </div>

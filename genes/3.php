@@ -19,7 +19,7 @@ $page = '3';
 	<div id="content">		
     <div class="clear"></div>                     
         
-        <div id="big_gray" class="collumn">
+        <div id="big_gray">
         <h1>"You Take Heaven by Force through Truth and Love, and Faith and Action."<strong style="font-weight:100; font-size:18px;">Continued...</strong>
                 </h1>
                 
@@ -34,17 +34,17 @@ He will use the parable of the genes of men and women, so please listen carefull
                         <!-- <div id="illustration" class="right"><img src="../inc/illus/fatherandi.png" align="right"></div> -->
                        
         </div name="big_gray">
-        <div id="big_gray" class="collumn" style="display: block;">
+        <div id="big_gray" style="display: block;">
             <div class="embed-container">
             <iframe src="http://player.vimeo.com/video/38780053?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </div>
 	</div><!-- big gray -->
-    <div id="big_gray" class="collumn" style="display: block;">
+    <div id="big_gray" style="display: block;">
     		<p>
             Thoughts have to receive the power of good in order for good to penetrate and enter the physical nature and perform good deeds. It is very difficult to penetrate the strong cells of the body. Only the strong ones can penetrate and enter the physical nature. Therefore, you need the power of strong thoughts so that goodness will penetrate your physical nature and so that you will do good deeds. The good heart has to be strong. If the good heart is weak, the evil heart will become stronger and your mentality and thoughts will be inclined toward evil. As a result, evil will combine with your body, and you will end up doing evil deeds. Therefore, you have to pray, seek Jesus, and discuss with Him. (Let's watch the video.)
             </p>
     </div name="big_gray">
-        <div id="big_gray" class="collumn" style="display: block;">
+        <div id="big_gray" style="display: block;">
             <div class="embed-container">
             <iframe src="http://player.vimeo.com/video/38780291?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </div>
@@ -57,7 +57,7 @@ He will use the parable of the genes of men and women, so please listen carefull
 										<a name="1"><strong>Translator's note:</strong></a> The Korean word for gene (Yu-jeon-ja, 유전자) sounds similar to the word for kettle (Ju-jeon-ja, 주전자) which is used in the original Korean. The term "Blue Jeans" is used in place of "kettle" in the English translation because it sounds similar to "Genes."
                         </blockquote>
     </div name="big_gray">
-	<div id="big_gray" class="collumn">
+	<div id="big_gray">
     <div id="next">
         <h3>Go to the next page to keep reading!</h3>
     </div>

@@ -21,9 +21,12 @@
 /* #Base 960 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container #big_gray							{padding: 24px 60px; } /* SM */
+	.container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .container .column,
-    .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    /* .container .columns                      { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+	.container .column, SM */
+    .container .columns                         { float: left; display: inline; }
     .row                                        { margin-bottom: 20px; }
 
     /* Nested Column Classes */
@@ -77,6 +80,7 @@
     /* Note: Design for a width of 768px */ /* SM modified numbers by couple pixels 767 > 765, 489 > 478  on all media queries */
 
     @media only screen and (min-width: 766px) and (max-width: 959px) {
+		.container #big_gray							{padding: 24px 36px; } /* SM */
         .container                                  { width: 730px; } /* SM 768px > 730px to fit in margins and padding and border */
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
@@ -130,6 +134,7 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 765px) {
+		.container #big_gray	{padding: 12px 8px; } /* SM */
         .container { width: 300px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -180,6 +185,7 @@
     /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 478px) and (max-width: 765px) {
+		.container #big_gray {padding: 12px; } /* SM */
         .container { width: 420px; }
         .container .columns,
         .container .column { margin: 0; }
