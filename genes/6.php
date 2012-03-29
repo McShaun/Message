@@ -3,8 +3,8 @@ $page = '6';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<div id="form">
+<div class="container">
+<div id="form" class="one">
 <?php include("../genes/nav.php"); ?>
 <form action="form2.php" method="post" id="commentForm">
 <?php
@@ -18,7 +18,7 @@ $page = '6';
 <div id="bigroundforms_form">
 	<div id="content">		
     <div class="clear"></div>                     
-        <div id="big_gray">
+        <div id="big_gray" class="collumn">
                <h1>"You Take Heaven by Force through Truth and Love, and Faith and Action."<strong style="font-weight:100; font-size:18px;">Continued...</strong></h1>
                 <h3>Entrust Yourself to the Lord Completely.</h3>
                 		<p>
@@ -43,13 +43,13 @@ You should listen to the Word of the Complete Testament, the Word of the Advent 
                        
         </div><!-- big gray -->
 	
-    <div id="big_gray" style="display: block;">
+    <div id="big_gray" class="collumn" style="display: block;">
             <div class="embed-container">
             <!-- include video 3 key wed msg gene theme -->
             <iframe src="http://player.vimeo.com/video/38824024?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </div>
 	</div name="big gray">
-    <div id="big_gray" style="display: block;">
+    <div id="big_gray" class="collumn" style="display: block;">
     		<p>This time when you hold 'the wedding banquet at the bride's home' on earth, in other words, when you fulfill the physical rapture, is a time in which you must equip your spirit to be in its 100% perfect form, which belongs to Heaven. What should you equip your spirit with? To put it in simple terms: do not love anyone else leaving Me, Jesus, on the side but believe and follow only Me 100%. This is equipping yourself 100%.
             </p>
 			<p>
@@ -59,13 +59,13 @@ You should listen to the Word of the Complete Testament, the Word of the Advent 
 I have first raptured your body and spirit on earth in order to transform your spirit into the heavenly form. Everyone, pray and become one with Me, Jesus, so that your own spirit will transform into the heavenly form perfectly. Right now, I am looking for people who will do this. Just as an orchard keeper only picks fruit that are ripe and not rotten from the fruit trees and puts them aside, which the owner comes, picks up and carries away in a vehicle; when the archangel blows the trumpet and I, Jesus, return, I will rapture only the spirits who have already been prepared and set aside, and take them to Heaven.
 			</p>
     </div>
-    <div id="big_gray" style="display: block;">
+    <div id="big_gray" class="collumn" style="display: block;">
             <div class="embed-container">
             <!-- include closing video  -->
             <iframe src="http://player.vimeo.com/video/38824811?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </div>
     </div>
-    <div id="big_gray" style="display: block;">
+    <div id="big_gray" class="collumn" style="display: block;">
             <img src="../inc/css/images/jesus3.png" align="left" class="left" style="margin-left:-5px;" >
             <p>
             I, Jesus, am continuously giving you revelations for the sake of your spirit's rapture while I am departing for the Advent. I am leaving, speaking to you with the heart of a man who bids farewell to his beloved woman and makes a sincere request that she be perfectly ready, as he leaves for a distant foreign country. My heart is like that of a man who wants his lover to receive him and go with him when he comes back from the foreign country, but he is anxious, worrying that she will fail to prepare because of misunderstandings and thus fail to receive him. With an anxious heart, he draws a map and explains things to her as he is leaving.
@@ -94,7 +94,7 @@ I have first raptured your body and spirit on earth in order to transform your s
     </div><!-- content -->
 <!-- End Video tabs ////////////////////////////////////////      -->
 <!-- end of custom additions before post loop -->
-<div id="big_gray">
+<div id="big_gray" class="collumn">
     <div id="next">
         <h3>Go to the next page to finish!</h3>
     </div>
@@ -104,5 +104,6 @@ I have first raptured your body and spirit on earth in order to transform your s
 </div><!-- end of bigroundforms_form -->
 </form>
 </div><!-- end of form div -->
+</div name="one">
 <?php include("../inc/google-analytics.php") ; ?>
 </body></html>
