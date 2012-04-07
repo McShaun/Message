@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#left-or-top {float:left;}
+#right-or-bottom {float:right;}
+#form {margin:0; width:900px;}
+#big_gray {width: 780px; padding-left:60px; padding-right:60px}
+#big_gray.welcome {width:320px; margin-top:1em;}
+#content #big_gray {padding-top: 30px; padding-bottom: 30px;}
+ul label {background-color: none;}
+/*#bigroundforms_form input[type="text"] {
+width: 180px;} causes problem with error label */
+
+h1 {
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: 5px;
+}
+h2 {
+font-weight: 300;
+line-height: 40px;
+margin: 0;
+font-size: 36px;
+}
+h3 {
+font-size: 30px;
+font-weight: 200;
+line-height: 36px;
+margin: 0;
+padding-bottom: 10px;
+}
+p {
+	font-size: 18px;
+	line-height: 24px;}
+/* } */

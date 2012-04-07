@@ -3,8 +3,8 @@ $page = '3';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<div id="form" >
+<div class="container">
+<div id="form" class="one">
 <?php include("../genes/nav.php"); ?>
 <form action="4.php" method="post" id="commentForm">
 <?php
@@ -68,6 +68,7 @@ He will use the parable of the genes of men and women, so please listen carefull
 
 </div><!-- end of bigroundforms_form -->
 </form>
+</div name="one">
 </div><!-- end of form div -->
 <?php include("../inc/google-analytics.php") ; ?>
 </body></html>

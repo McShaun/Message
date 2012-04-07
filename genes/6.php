@@ -3,8 +3,8 @@ $page = '6';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<div id="form">
+<div class="container">
+<div id="form" class="one">
 <?php include("../genes/nav.php"); ?>
 <form action="form2.php" method="post" id="commentForm">
 <?php
@@ -104,5 +104,6 @@ I have first raptured your body and spirit on earth in order to transform your s
 </div><!-- end of bigroundforms_form -->
 </form>
 </div><!-- end of form div -->
+</div name="one">
 <?php include("../inc/google-analytics.php") ; ?>
 </body></html>

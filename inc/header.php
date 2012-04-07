@@ -1,7 +1,30 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<title>Lord's Words of Life</title>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>The Lords Words</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<!-- <link rel="stylesheet" href="../skeleton/stylesheets/base.css"> -->
+	<link rel="stylesheet" href="../skeleton/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="../skeleton/stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- no gloss -->
 <link rel="apple-touch-icon-precomposed" href="../inc/css/images/webap60.png"/> 
@@ -24,14 +47,16 @@
 <link rel="stylesheet" type="text/css" href="../inc/css/forms.css"
   media="screen" />
   
-<!-- in case of small screen -->
+<!-- in case of small screen 
 <link rel="stylesheet" type="text/css"
 	media="screen and (max-device-width: 920px)"
 	href="../inc/css/mobile.css" />
-<!-- wide screens -->
+    -->
+<!-- wide screens 
 <link rel="stylesheet" type="text/css"
 	media="screen and (min-device-width: 920px)"
 	href="../inc/css/non-mobile.css" />
+    -->
     
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js" type="text/javascript"></script>

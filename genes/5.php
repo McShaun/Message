@@ -3,8 +3,8 @@ $page = '5';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<div id="form">
+<div class="container">
+<div id="form" class="one">
 <?php include("../genes/nav.php"); ?>
 <form action="6.php" method="post" id="commentForm">
 <?php
@@ -60,24 +60,10 @@ The Lord said, <strong>"If you entrust the money you have to your lover, you wil
 The Lord said, <strong>"If you entrust the money you have to your lover, you will not be able to do the things people do with money, so you will not cause a problem because of money. Likewise, entrust your thoughts, heart, and mind to Me. Then I will not use them in the wrong place but will use them only according to My Will." </strong>
     </p>
 	</div name="big gray">
-    <!--
-    <div id="big_gray" style="display:block;" class="footer">
-    					<blockquote><p>Author: <br>
-										<strong>Pastor Joshua Jeong</strong><br>
-												Founder of Providence Church</p>
-
-                         <p>Translation Provided by <strong>IETD</strong> (International English Translation Department)</p>
-                         
-                         <p>Videos produced by <strong>CTN</strong> (Christian Television Network)</p>
-						 
-                         <p>Site designed by <strong>American Providence Internet Team</strong></p>
-						</blockquote>
-    </div name="big_gray">
-    -->
     </div><!-- content -->
 <!-- End Video tabs ////////////////////////////////////////      -->
 <!-- end of custom additions before post loop -->
-<div id="big_gray">
+<div id="big_gray" style="float:right;">
     <div id="next">
         <h3>Go to the next page to keep reading!</h3>
     </div>
@@ -87,5 +73,6 @@ The Lord said, <strong>"If you entrust the money you have to your lover, you wil
 </div><!-- end of bigroundforms_form -->
 </form>
 </div><!-- end of form div -->
+</div name="one">
 <?php include("../inc/google-analytics.php") ; ?>
 </body></html>

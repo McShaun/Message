@@ -3,8 +3,8 @@ $page = '4';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<div id="form">
+<div class="container">
+<div id="form" class="one">
 <?php include("../genes/nav.php"); ?>
 <form action="5.php" method="post" id="commentForm">
 <?php
@@ -43,23 +43,7 @@ All of you have listened well, right? It is easy to understand it when I receive
             <iframe src="http://player.vimeo.com/video/38808956?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
             </div>
 	</div name="big gray">
-    <!--
-    <div id="big_gray" style="display:block;" class="footer">
-    					<blockquote><p>Author: <br>
-										<strong>Pastor Joshua Jeong</strong><br>
-												Founder of Providence Church</p>
-
-                         <p>Translation Provided by <strong>IETD</strong> (International English Translation Department)</p>
-                         
-                         <p>Videos produced by <strong>CTN</strong> (Christian Television Network)</p>
-						 
-                         <p>Site designed by <strong>American Providence Internet Team</strong></p>
-						</blockquote>
-    </div name="big_gray">
-    -->
     </div><!-- content -->
-<!-- End Video tabs ////////////////////////////////////////      -->
-<!-- end of custom additions before post loop -->
 <div id="big_gray">
     <div id="next">
         <h3>Go to the next page to keep reading!</h3>
@@ -69,6 +53,7 @@ All of you have listened well, right? It is easy to understand it when I receive
 
 </div><!-- end of bigroundforms_form -->
 </form>
+</div name="one">
 </div><!-- end of form div -->
 <?php include("../inc/google-analytics.php") ; ?>
 </body></html>
