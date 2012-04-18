@@ -3,8 +3,8 @@ $page = 'Finish';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<div id="form" style="margin-top:1em;" >
+<div class="container">
+<div id="form" class="one" style="margin-top:1em;" >
 <div id="bigroundforms_form">
 <form action="../static/formsend.php" method="post" id="commentForm">
 <?php
@@ -47,5 +47,6 @@ Private: Please do not post my question and/or comment</label></li>
 </div>
 </div><!-- end of bigroundforms_form -->
 </div><!-- end of form div -->
+</div name="container">
 <?php include("../inc/google-analytics.php") ; ?>
 </body></html>

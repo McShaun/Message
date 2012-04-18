@@ -2,12 +2,15 @@
 $page = '1'; 
 ?>
 <?php include("../inc/header.php"); ?>
-<!-- I'm about to branch out and implement the skeleton framework, but first I need to make sure I can pull my files if this experiment goes awry -->
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<!-- <div id="form" style="width: 768px;" > -->
-<div id="form">
 
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+<div id="form" class="one">
 <?php include("../counsel/nav.php"); ?>
 <form action="2.php" method="post" id="commentForm">
 <?php

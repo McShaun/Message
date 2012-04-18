@@ -3,8 +3,9 @@ $page = '2';
 ?>
 <?php include("../inc/header.php"); ?>
 <body>
-<!-- <div id="floater" style="height:50%; margin-bottom: -100px;"></div> -->
-<div id="form" >
+
+<div class="container">
+<div id="form" class="one">
 <?php include("nav.php"); ?>
 <form action="3.php" method="post" id="commentForm">
 <?php
@@ -48,5 +49,6 @@ $page = '2';
 </div><!-- end of bigroundforms_form -->
 </form>
 </div><!-- end of form div -->
+</div name="cotainer">
 <?php include("../inc/google-analytics.php") ; ?>
 </body></html>
