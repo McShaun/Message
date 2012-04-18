@@ -5,10 +5,7 @@
 <file name="skeleton.css" server="ftp.drawalot.com/public_html/demo/wp-content/themes/press/msg/" local="129752686340000000" remote="129767667000000000" />
 <file name="base.css" server="ftp.drawalot.com/public_html/demo/msg/" local="129752686340000000" remote="129768238200000000" />
 <file name="layout.css" server="ftp.drawalot.com/public_html/demo/msg/" local="129752686340000000" remote="129768238200000000" />
-<<<<<<< HEAD
 <file name="skeleton.css" server="ftp.drawalot.com/public_html/demo/msg/" local="129768968895702968" remote="129769002600000000" />
-=======
-<file name="skeleton.css" server="ftp.drawalot.com/public_html/demo/msg/" local="129775313552731424" remote="129775346400000000" />
->>>>>>> skeleton_esermon
 <file name="custom.css" server="ftp.drawalot.com/public_html/demo/msg/" local="129774154782820264" remote="129774187800000000" />
+<file name="skeleton.css" server="drawalot.com/www/demo/msg/" local="129792482162854028" remote="129792518400000000" />
 </dwsync>
