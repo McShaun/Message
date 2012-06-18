@@ -41,9 +41,9 @@
 <meta name="viewport" content = "width = device-width, initial-scale = 1, user-scalable = yes, minimum-scale = 1, maximum-scale = 5" />
 
 
-<!-- Blue toy --><link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'> -->
+<!-- Blue toy --><link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 <!-- Newspaper --> <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'> 
-<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'> -->
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'> 
 <link rel="stylesheet" type="text/css" href="../inc/css/forms.css"
   media="screen" />
   
