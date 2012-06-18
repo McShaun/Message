@@ -10,4 +10,8 @@
 <file name="thankyou.php" server="ftp.drawalot.com/public_html/demo/msg/" local="129775225836744356" remote="129775258200000000" />
 <file name="formsend.php" server="drawalot.com/www/demo/msg/" local="129825222105269759" remote="129825258600000000" />
 <file name="formsend_bookmark.php" server="drawalot.com/www/demo/msg/" local="129825219987508630" remote="129825255600000000" />
+<file name="bookmark.php" server="drawalot.com/www/e-class/" local="129782790129936381" remote="129844668600000000" />
+<file name="formsend.php" server="drawalot.com/www/e-class/" local="129825222105269759" remote="129844668600000000" />
+<file name="formsend_bookmark.php" server="drawalot.com/www/e-class/" local="129825219987508630" remote="129844668600000000" />
+<file name="thankyou.php" server="drawalot.com/www/e-class/" local="129782790485332684" remote="129844669200000000" />
 </dwsync>

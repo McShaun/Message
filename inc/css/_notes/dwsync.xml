@@ -10,4 +10,8 @@
 <file name="mobile.css" server="ftp.drawalot.com/public_html/demo/msg/" local="129767268637662313" remote="129768235800000000" />
 <file name="non-mobile.css" server="ftp.drawalot.com/public_html/demo/msg/" local="129767286010000000" remote="129768235800000000" />
 <file name="forms.css" server="drawalot.com/www/demo/msg/" local="129844565166052191" remote="129844600800000000" />
+<file name="bigroundforms.css" server="drawalot.com/www/e-class/" local="129782790126816375" remote="129844663800000000" />
+<file name="mobile.css" server="drawalot.com/www/e-class/" local="129782790127908377" remote="129844665600000000" />
+<file name="non-mobile.css" server="drawalot.com/www/e-class/" local="129782790127908377" remote="129844665600000000" />
+<file name="forms.css" server="drawalot.com/www/e-class/" local="129845047161213731" remote="129845082600000000" />
 </dwsync>

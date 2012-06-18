@@ -2,23 +2,22 @@
 /* CSS Document */
 
 /* colors */
-#big_gray, .live, .live a {/* Newspaper background: #f6f4f4 url(images/newspaper.png) repeat; */
-/* Blue Toy */ background-color:#045A9F;}
-body {/* Newspaper // background: #FDFDFA url(images/newspaper-dark.png) repeat; text-align: center;color: #444; font-family: Georgia,"Times New Roman",serif; */ 
-	/* Blue toy */ background-color: #008efe; text-align: center; /* !!! */; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; 
-}
-.lightcolor {color: #888;}
-.live, .live a{color: #080000;}
-#nav {color: #080000;}
 
-form img { margin: 0; }
-
-a, h1, h2, h3 {color: #a12b2b;}
-h1, h2, h3 {
-	/* Newspaper - color:#444; font-family: 'Georgia', serif; */
-	/* Blue toy */ color:white; font-family: 'Gloria Hallelujah', cursive;
+body {background-color: #008efe; text-align: center; /* !!! */; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; }
+form img { margin: 0 10px 10px 0; }
+p {font-size: 20px;}
+a, h1, h2, h3 {color: #FFFFFF;}
+h2, h3 {color:white; font-family: 'Gloria Hallelujah', cursive;}
+h2 {
+font-weight: 300;
+line-height: 40px;
+margin: 0;
 }
-h1 {font-family: 'Poiret One', cursive; text-shadow: #CCC -1px -1px 0;}
+h3 {
+font-weight: 200;
+line-height: 30px;
+margin: 0;
+}
 /* form1.php */
 #floater {
 	height:35%; 
@@ -40,23 +39,14 @@ ul label {
     margin: 0 0 10px;
 	clear:both;
 }
-
-#next {
-	height: 32px; 
-	margin-right: 10px; 
-	margin-bottom:0; 
-	text-align: center; 
-	max-width: 562px; 
-	float:left;
-	display: inline-table;
-}
 /* naviagation */
-#nav {/* margin-bottom:10px; */ text-align:center; font-size: 20px;}
+#nav {color: #045A9F; /* margin-bottom:10px; */ text-align:center; font-size: 20px;}
 #nav a {color: #FFF; text-decoration: none;}
 #nav ul {padding-left:0;  margin-top: 0;}
 #nav li {list-style:none;display:inline-block;margin:2px 10px;}
 #nav li a:hover {text-decoration: underline;}
 .live, .live a{
+	color: #FFFFFF;
 	padding: 10px 20px;
 	border-radius: 5px 5px 5px 5px;
 	-moz-border-radius:5px 5px 5px 5px;
@@ -98,7 +88,7 @@ div.panes h2 {
 #form {
 /*margin: 0px auto;*/
 margin-top:1em;
-/* padding: 15px 20px; */
+padding: 15px 20px;
 position: relative;
 float: none;
 clear: both;
@@ -106,7 +96,6 @@ display: inline-block;
 }
 #form form {text-align:left; /* !!! */
 	/* only for nav bookmark display:inline-block; */}
-
 #bigroundforms {
 font-size: 18px;
 line-height: 2;
@@ -138,7 +127,7 @@ display: block;
 text-align: left;
 }
 #bigroundforms_form input[type=text], #bigroundforms_form textarea {
-background-color: #EEE;
+background-color: white;
 border: 1px solid #999999;
 border-radius: 5px 5px 5px 5px;
 -moz-border-radius:5px 5px 5px 5px;
@@ -240,19 +229,19 @@ height: 60px;
 width: 82px;
 }
 #nav button.bookmark {
-background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/msg/inc/css/images/bookmark.png") no-repeat scroll left top transparent;
+background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/bookmark.png") no-repeat scroll left top transparent;
 height: 57px;
 width: 67px;
 border:none;
 cursor: pointer;
 }
 #bigroundforms_form button.next {
-background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/msg/inc/css/images/next.png") no-repeat scroll left top transparent;
+background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/next.png") no-repeat scroll left top transparent;
 height: 60px;
 width: 140px;
 }
 #bigroundforms_form button.done {
-background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/msg/inc/css/images/done.png") no-repeat scroll left top transparent;
+background: url("http://www.biblestudyinteractive.com/wp-content/themes/press/styles/images/done.png") no-repeat scroll left top transparent;
 height: 60px;
 width: 140px;
 }
@@ -317,9 +306,8 @@ text-decoration: none;
 #bigroundforms .aside ul li a:hover {
 color: #7C3D00;
 }
-#big_gray.footer {background: #CCC url(none);}
 blockquote {
-background-color: #EEE; 
+background-color: #F6F6F6; 
 /* background-color: none;*/
 border: 1px solid #AAAAAA;
 border-radius: 3px 3px 3px 3px;
@@ -328,16 +316,12 @@ font-family: Georgia,Times,serif;
 font-size: 1em;
 font-size-adjust: none;
 font-stretch: normal;
-font-style: normal;
+font-style: italic;
 font-variant: normal;
 font-weight: bold;
 line-height: normal;
 margin: 20px;
 padding: 20px;
-}
-blockquote p {
-	font-weight: normal;
-	font-size: 14px;
 }
 #big_gray {
 /* border: 1px solid gray; */
@@ -345,8 +329,7 @@ border-radius: 5px 5px 5px 5px;
 display: inline-block;
 margin-bottom: 10px;
 /* margin-right: 10px; */
-padding: 24px;
-border: 1px solid #AAA;
+padding: 14px;
 }
 img.alignleft {
 display: inline;
@@ -378,17 +361,3 @@ padding: 7px;
     width: 100%;
     height: 100%;
 }
-#illustration {
-	padding: 5px;
-	/*border-radius: 5px 5px 5px 5px;
-	-moz-border-radius:5px 5px 5px 5px;
-	-khtml-border-radius: 5px;
-	-webkit-border-radius: 5px; */
-	display:inline-block;
-	margin: 5px;
-	border: 1px solid #AAA;
-	background: #CCC;
-}
-#illustration.right, img.right {float:right; margin: 0 0 5px 24px;}
-#illustration.left, img.left {float:left; margin: 0 24px 5px 0;}
-img { max-width: 100%; }
