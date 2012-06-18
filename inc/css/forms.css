@@ -48,6 +48,7 @@ ul label {
 	text-align: center; 
 	max-width: 562px; 
 	float:left;
+	display: inline-table;
 }
 /* naviagation */
 #nav {/* margin-bottom:10px; */ text-align:center; font-size: 20px;}
